@@ -49,7 +49,7 @@ const cors = require('cors');
 app.use(cors());
 // Allow specific origin(s)
 app.use(cors({
-  origin: 'https://mern-frontend-nine-gamma.vercel.app'
+  origin: 'https://mern-frontend-3yf3a08di-zeusopera9s-projects.vercel.app'
 }));
 
 
