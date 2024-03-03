@@ -11,5 +11,10 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ]
+    ],
+    "functions": {
+        "api/v1/tours/search/getFeaturedTours": {
+          "maxDuration": 30
+        }
+    }
 }
