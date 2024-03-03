@@ -15,8 +15,9 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
-    origin: true,
-    credentials: true
+    origin: "*",
+    credentials: true,
+    optionSuccessStatus: 200,
 }
 
 // Database Connection
